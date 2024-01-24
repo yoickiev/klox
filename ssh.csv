@@ -1,4 +1,84 @@
-Server,Username,Expired,Password
+SERVER,USERNAME/UUID,EXPIRED:password,Template
+kuhing.my.id,abahadah,04/02/2024,123,kuhing.my.id:80@username:123
+kuhing.my.id,aping,20/02/2024,123,kuhing.my.id:80@username:123
+kuhing.my.id,bangjali,12/02/2024,123,kuhing.my.id:80@username:123
+kuhing.my.id,biniaming,06/02/2024,123,kuhing.my.id:80@username:123
+kuhing.my.id,dayah,17/02/2024,123,kuhing.my.id:80@username:123
+kuhing.my.id,1d1c1d94-6987-4658-a4dc-8821a30fe7e0,01/01/2024,-,vmess://eyJhZGQiOiJrdWhpbmcubXkuaWQiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6Imt1aGluZy5teS5pZCIsImlkIjoiaXNpIFVVSUQgZGFyaSB3ZWIga2Ugc2luaSIsIm5ldCI6IndzIiwicGF0aCI6Ii92bWVzcyIsInBvcnQiOiI0NDMiLCJwcyI6IlRFTVBMQVRFIiwic2N5IjoiYXV0byIsInNuaSI6Imt1aGluZy5teS5pZCIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+kuhing.my.id,533ab234-48f6-4eb4-b75c-f8cb57edb6e6,21/02/2024,-,sama kayak yang diatas
+kuhing.my.id,d0a79d40-32e4-474e-ab73-e42b2123f331,25/02/2024,-,sama kayak yang diatas
+kuhing.my.id,69cdab37-49ea-4181-9e56-31b55a07ff42,20/02/2024,-,sama kayak yang diatas
+kuhing.my.id,d6a2adc7-6860-435e-b141-edfe33fb3661,19/02/2024,-,sama kayak yang diatas
+kuhing.my.id,de89b239-dffe-4bbf-8786-daed79885516,17/02/2024,-,sama kayak yang diatas
+kuhing.my.id,0c1e5809-1c1f-4d17-bfc8-c76c59266762,14/02/2024,-,sama kayak yang diatas
+kuhing.my.id,4798efd4-0477-407f-b506-974cb466f6ff,10/02/2024,-,sama kayak yang diatas
+kuhing.my.id,c0644cc2-3f60-4f74-b56d-8a9bbf9629a8,09/02/2024,-,sama kayak yang diatas
+kuhing.my.id,4eb49cfd-786a-4cd4-ba05-04d05b2a7d20,06/02/2024,-,sama kayak yang diatas
+kuhing.my.id,4094036f-671f-4079-a937-1d81724ddf64,04/02/2024,-,sama kayak yang diatas
+kuhing.my.id,efd674d4-c644-4cbc-98a2-0943944f3e4a,03/02/2024,-,sama kayak yang diatas
+kuhing.my.id,637e065f-b4b7-401c-8d31-8eb5d9d3ff71,02/02/2024,-,sama kayak yang diatas
+kuhing.my.id,e07a9968-a6ee-4e11-b8cc-f905c9854546,03/02/2024,-,sama kayak yang diatas
+kuhing.my.id,ff641e6c-3d03-4050-b59b-6f413824a3fc,02/02/2024,-,sama kayak yang diatas
+kuhing.my.id,da230c06-de61-497a-8c19-451785680dd1,01/02/2024,-,sama kayak yang diatas
+kuhing.my.id,761d4f2b-e598-45f9-891d-dd414ff5672c,31/01/2024,-,sama kayak yang diatas
+kuhing.my.id,fcd545d9-aefc-4476-87be-d742300ed29c,31/01/2024,-,sama kayak yang diatas
+kuhing.my.id,7adb1082-5d94-4428-95b9-89b359745eb2,28/01/2024,-,sama kayak yang diatas
+kuhing.my.id,646a3eee-a88b-4c45-b6ca-fa350406d33a,28/01/2024,-,sama kayak yang diatas
+kuhing.my.id,70f6bcda-46e1-4e39-88cc-58e709d4f665,27/01/2024,-,sama kayak yang diatas
+kuhing.my.id,e90bff52-c85e-4da2-9963-c62afe9b5fa0,28/01/2024,-,sama kayak yang diatas
+kuhing.my.id,8ceed4e0-21ea-4267-ba38-ace3a28d230e,26/01/2024,-,sama kayak yang diatas
+kuhing.my.id,159bf248-a68a-4308-a6db-215142ec4268,26/01/2024,-,sama kayak yang diatas
+kuhing.my.id,ed63a283-f1e4-471a-b65c-04e5835b409b,10/10/2024,-,sama kayak yang diatas
+kuhing.my.id,e00ba52b-77f0-49e8-9d89-6eab68e4f988,01/10/2024,-,sama kayak yang diatas
+id3.adijayavvip.cloud,Yan,03/02/2024,Sorox,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,Aldo,03/02/2024,22,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,titan,03/02/2024,88,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,Rahmatullah,03/02/2024,22,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,Fahmi,03/02/2024,u7,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,Dio123,04/02/2024,628210,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,didik,04/02/2024,edu2024,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,QULUBZ,04/02/2024,77,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,Dzky,04/02/2024,66,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,Teguh,04/02/2024,662,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,soekamtie,04/02/2024,232,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,Alya,04/02/2024,776,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,Riko,05/02/2024,saputra,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,deni7,05/02/2024,06-Jan,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,benu,05/02/2024,222,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,Ari,05/02/2024,ggwp,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,Manrahaling,05/02/2024,88,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,pitono,05/02/2024,21,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,Aprilia,05/02/2024,222,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,sengkun,06/02/2024,oseng123,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,Fiqi,06/02/2024,66,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,Rafa,07/02/2024,76,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,Yudhi,07/02/2024,232,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,Annisa,07/02/2024,332,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,ZILFA,09/02/2024,22,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,ADIT,09/02/2024,87,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,SITI,10/02/2024,22,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,ida,10/02/2024,99,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,sori,10/02/2024,11,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,NEYSA,11/02/2024,10,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,kinan,15/02/2024,dita,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,Fita,01/02/2024,Nuraini,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,ANDRE,11/02/2024,3,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,Fira,17/02/2024,89,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,PUTRA,10/02/2024,32,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,basuki,19/02/2024,323,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,irgi7,27/01/2024,77,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,Ram,19/02/2024,22,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,aqil,19/02/2024,23,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,Nindya,20/02/2024,334,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,irgi,30/01/2024,irgi,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,abdullatif,22/02/2024,9,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,delpan,22/02/2024,44,id3.adijayavvip.cloud:80@username:password
+id3.adijayavvip.cloud,b2900314-97c5-4e3e-959b-f9ed5c3a0854,2024/01/00,-,vmess://eyJhZGQiOiJpZDMuYWRpamF5YXZ2aXAuY2xvdWQiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6ImlkMy5hZGlqYXlhdnZpcC5jbG91ZCIsImlkIjoiaXNpIFVVSUQgZGFyaSB3ZWIga2Ugc2luaSIsIm5ldCI6IndzIiwicGF0aCI6Ii92bWVzcyIsInBvcnQiOiI0NDMiLCJwcyI6IlRFTVBMQVRFIiwic2N5IjoiYXV0byIsInNuaSI6ImlkMy5hZGlqYXlhdnZpcC5jbG91ZCIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+id3.adijayavvip.cloud,476110c0-bc84-469c-a071-8545ab6adfc8,20/02/2024,-,sama kayak yang diatas
+id3.adijayavvip.cloud,64099149-cca0-492e-b117-27b75790c86a,01/02/2024,-,sama kayak yang diatas
+id3.adijayavvip.cloud,a4e95e39-9bde-4d7a-92ef-3666703bc8c8,17/02/2024,-,sama kayak yang diatas
+id3.adijayavvip.cloud,5ac3f1bf-fba3-457a-a116-ad2c5360f7be,10/02/2024,-,sama kayak yang diatas
+id3.adijayavvip.cloud,5e447b21-9aca-492b-89b8-0622a43424ef,05/02/2024,-,sama kayak yang diatas
 id2-pro.nesiaservervip.biz.id,xdere,2024-11-30,001
 indo1.sengmurahyo.my.id,rudi,18 Oktober 2024,rudi
 mdevs.bzofficial.cloud,cloudy,unknown,mdevz
