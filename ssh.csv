@@ -1,4 +1,4 @@
-SERVER,USERNAME/UUID,EXPIRED:password,Template
+SERVER,USERNAME/UUID,EXPIRED,PASSWORD,TEMPLATE
 kuhing.my.id,abahadah,04/02/2024,123,kuhing.my.id:80@username:123
 kuhing.my.id,aping,20/02/2024,123,kuhing.my.id:80@username:123
 kuhing.my.id,bangjali,12/02/2024,123,kuhing.my.id:80@username:123
