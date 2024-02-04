@@ -1,14 +1,14 @@
 SERVER,USERNAME/UUID,EXPIRED,PASSWORD,TEMPLATE
-free1.sshtproject.com,ssht,unknown,ssht,
-free2.sshtproject.com,ssht,unknown,ssht,
-free3.sshtproject.com,ssht,unknown,ssht,
-free4.sshtproject.com,ssht,unknown,ssht,
-free5.sshtproject.com,ssht,unknown,ssht,
-free6.sshtproject.com,ssht,unknown,ssht,
-free7.sshtproject.com,ssht,unknown,ssht,
-free8.sshtproject.com,ssht,unknown,ssht,
-free9.sshtproject.com,ssht,unknown,ssht,
-free10.sshtproject.com,ssht,unknown,ssht,
+free1.sshtproject.com,ssht,unknown,ssht,free1.sshtproject.com:80@ssht:ssht
+free2.sshtproject.com,ssht,unknown,ssht,free2.sshtproject.com:80@ssht:ssht
+free3.sshtproject.com,ssht,unknown,ssht,free3.sshtproject.com:80@ssht:ssht
+free4.sshtproject.com,ssht,unknown,ssht,free4.sshtproject.com:80@ssht:ssht
+free5.sshtproject.com,ssht,unknown,ssht,free5.sshtproject.com:80@ssht:ssht
+free6.sshtproject.com,ssht,unknown,ssht,free6.sshtproject.com:80@ssht:ssht
+free7.sshtproject.com,ssht,unknown,ssht,free7.sshtproject.com:80@ssht:ssht
+free8.sshtproject.com,ssht,unknown,ssht,free8.sshtproject.com:80@ssht:ssht
+free9.sshtproject.com,ssht,unknown,ssht,free9.sshtproject.com:80@ssht:ssht
+free10.sshtproject.com,ssht,unknown,ssht,free10.sshtproject.com:80@ssht:ssht
 freesshvpn.site,PLUSPRO,unknown,PLUSPRO,
 MinaPronet Singapura,doingsedozpro,unknown,doingsedozpro,sg-server.minapronetvpn.us:80@edozprodoings:doingsedozpro
 MinaPronet India,doingsedozpro,unknown,doingsedozpro,in-server.minapronetvpn.us:80@edozprodoings:doingsedozpro
