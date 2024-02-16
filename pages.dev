@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Astro description">
+  <meta name="viewport" content="width=device-width">
+  <link rel="icon" type="image/svg+xml" href="https://fless.pages.dev/favicon.svg">
+  <meta name="generator" content="Astro v4.0.8">
+  <title>FLESS</title>
+  <link rel="stylesheet" hrefhttps://fless.pages.dev/_astro/index.U90PrgFX.css">
+  <script type="module">
+  fetch("https://ipapi.co/json/").then(t=>t.json()).then(t=>{document.getElementById("ip").textContent=t.ip,document.getElementById("city").textContent=t.city,document.getElementById("country").textContent=t.country_name,document.getElementById("isp").textContent=t.org});
+  </script>
+</head>
+<body class="bg-slate-100">
+  <main>
+    <div class="text-center">
+      <h1 class="text-6xl font-bold">FLESS</h1>
+      <p class="text-xl">Free and <a class=
+      "font-semibold hover:underline" href=
+      "https://github.com/akbxr/fless" target="_blank">open
+      source</a> vless server provider. Join telegram channel
+      <a class="font-semibold hover:underline" href=
+      "https://t.me/fless_server" target="_blank">@fless_server</a>
+      for more updates.</p>
+      <div class="flex justify-center">
+        <div class=
+        "bg-white rounded-xl border-2 border-black shadow-3xl p-8 m-8 text-center">
+          <h1 class="text-xl font-bold mb-2">Your IP</h1>
+          <p class="font-semibold">IP: <span id="ip"></span><br>
+          CITY: <span id="city"></span><br>
+          COUNTRY: <span id="country"></span><br>
+          ISP: <span id="isp"></span></p>
+        </div>
+      </div>
+      <div class="flex justify-center"></div>
+      <h2 class="text-center font-bold text-4xl p-2 mt-8">LIST
+      SERVERS</h2>
+      <div class="flex justify-center">
+        <div class=
+        "justify-center justify-items-center items-stretch grid md:grid-cols-2 xl:grid-cols-3">
+          <div class=
+          "bg-white rounded-xl border-2 border-black shadow-3xl p-8 m-8 text-center">
+            <h2 class="text-2xl font-bold py-2">Australia</h2>
+            <p><strong>Host: au-fless.pages.dev</strong><br>
+            <strong>Bandwidth: Unlimited</strong><br>
+            <strong>Transport: Websocket</strong><br>
+            <strong>TLS: 443, 8443, 2053, 2096, 2087,
+            2083</strong><br>
+            <strong>Valid: Lifetime</strong></p>
+            <p><button class=
+            "transform active:shadow hover:bg-slate-200 transition duration-150 ease-in rounded-lg border-2 border-black shadow-1xl py-1 px-4 my-4 bg-white text-black font-bold"
+            onclick=
+            "copyToClipboard('vless://6766d5e4-7f29-459b-9b5e-c9688b352366@au-fless.pages.dev:443?encryption=none&security=tls&sni=au-fless.pages.dev&fp=randomized&type=ws&host=au-fless.pages.dev&path=%2Ffless#au-fless.pages.dev')">
+            Copy</button></p>
+            <script>
+            function copyToClipboard(text) {
+            if (window.navigator.clipboard && window.navigator.clipboard.writeText) {
+            // Clipboard API is available
+            window.navigator.clipboard.writeText(text).then(function() {
+            alert('Copied to clipboard!');
+            }, function(err) {
+            console.error('Could not copy text: ', err);
+            });
+            } else {
+            // Clipboard API is not available, use document.execCommand
+            var textarea = document.createElement('textarea');
+            textarea.value = text;
+            document.body.appendChild(textarea);
+            textarea.select();
+            try {
+            document.execCommand('copy');
+            alert('Copied to clipboard!');
+            } catch (err) {
+            console.error('Could not copy text: ', err);
+            } finally {
+            document.body.removeChild(textarea);
+            }
+            }
+            }
+            </script>
+          </div>
+          <div class=
+          "bg-white rounded-xl border-2 border-black shadow-3xl p-8 m-8 text-center">
+            <h2 class="text-2xl font-bold py-2">Canada</h2>
+            <p><strong>Host: ca-fless.pages.dev</strong><br>
+            <strong>Bandwidth: Unlimited</strong><br>
+            <strong>Transport: Websocket</strong><br>
+            <strong>TLS: 443, 8443, 2053, 2096, 2087,
+            2083</strong><br>
+            <strong>Valid: Lifetime</strong></p>
+            <p><button class=
+            "transform active:shadow hover:bg-slate-200 transition duration-150 ease-in rounded-lg border-2 border-black shadow-1xl py-1 px-4 my-4 bg-white text-black font-bold"
+            onclick=
+            "copyToClipboard('vless://6766d5e4-7f29-459b-9b5e-c9688b352366@ca-fless.pages.dev:443?encryption=none&security=tls&sni=ca-fless.pages.dev&fp=randomized&type=ws&host=ca-fless.pages.dev&path=%2Ffless#ca-fless.pages.dev')">
+            Copy</button></p>
+            <script>
+            function copyToClipboard(text) {
+            if (window.navigator.clipboard && window.navigator.clipboard.writeText) {
+            // Clipboard API is available
+            window.navigator.clipboard.writeText(text).then(function() {
+            alert('Copied to clipboard!');
+            }, function(err) {
+            console.error('Could not copy text: ', err);
+            });
+            } else {
+            // Clipboard API is not available, use document.execCommand
+            var textarea = document.createElement('textarea');
+            textarea.value = text;
+            document.body.appendChild(textarea);
+            textarea.select();
+            try {
+            document.execCommand('copy');
+            alert('Copied to clipboard!');
+            } catch (err) {
+            console.error('Could not copy text: ', err);
+            } finally {
+            document.body.removeChild(textarea);
+            }
+            }
+            }
+            </script>
+          </div>
+          <div class=
+          "bg-white rounded-xl border-2 border-black shadow-3xl p-8 m-8 text-center">
+            <h2 class="text-2xl font-bold py-2">Finland</h2>
+            <p><strong>Host: fi-fless.pages.dev</strong><br>
+            <strong>Bandwidth: Unlimited</strong><br>
+            <strong>Transport: Websocket</strong><br>
+            <strong>TLS: 443, 8443, 2053, 2096, 2087,
+            2083</strong><br>
+            <strong>Valid: Lifetime</strong></p>
+            <p><button class=
+            "transform active:shadow hover:bg-slate-200 transition duration-150 ease-in rounded-lg border-2 border-black shadow-1xl py-1 px-4 my-4 bg-white text-black font-bold"
+            onclick=
+            "copyToClipboard('vless://6766d5e4-7f29-459b-9b5e-c9688b352366@fi-fless.pages.dev:443?encryption=none&security=tls&sni=fi-fless.pages.dev&fp=randomized&type=ws&host=fi-fless.pages.dev&path=%2Ffless#fi-fless.pages.dev')">
+            Copy</button></p>
+            <script>
+            function copyToClipboard(text) {
+            if (window.navigator.clipboard && window.navigator.clipboard.writeText) {
+            // Clipboard API is available
+            window.navigator.clipboard.writeText(text).then(function() {
+            alert('Copied to clipboard!');
+            }, function(err) {
+            console.error('Could not copy text: ', err);
+            });
+            } else {
+            // Clipboard API is not available, use document.execCommand
+            var textarea = document.createElement('textarea');
+            textarea.value = text;
+            document.body.appendChild(textarea);
+            textarea.select();
+            try {
+            document.execCommand('copy');
+            alert('Copied to clipboard!');
+            } catch (err) {
+            console.error('Could not copy text: ', err);
+            } finally {
+            document.body.removeChild(textarea);
+            }
+            }
+            }
+            </script>
+          </div>
+          <div class=
+          "bg-white rounded-xl border-2 border-black shadow-3xl p-8 m-8 text-center">
+            <h2 class="text-2xl font-bold py-2">France</h2>
+            <p><strong>Host: fr-fless.pages.dev</strong><br>
+            <strong>Bandwidth: Unlimited</strong><br>
+            <strong>Transport: Websocket</strong><br>
+            <strong>TLS: 443, 8443, 2053, 2096, 2087,
+            2083</strong><br>
+            <strong>Valid: Lifetime</strong></p>
+            <p><button class=
+            "transform active:shadow hover:bg-slate-200 transition duration-150 ease-in rounded-lg border-2 border-black shadow-1xl py-1 px-4 my-4 bg-white text-black font-bold"
+            onclick=
+            "copyToClipboard('vless://6766d5e4-7f29-459b-9b5e-c9688b352366@fr-fless.pages.dev:443?encryption=none&security=tls&sni=fr-fless.pages.dev&fp=randomized&type=ws&host=fr-fless.pages.dev&path=%2Ffless#fr-fless.pages.dev')">
+            Copy</button></p>
+            <script>
+            function copyToClipboard(text) {
+            if (window.navigator.clipboard && window.navigator.clipboard.writeText) {
+            // Clipboard API is available
+            window.navigator.clipboard.writeText(text).then(function() {
+            alert('Copied to clipboard!');
+            }, function(err) {
+            console.error('Could not copy text: ', err);
+            });
+            } else {
+            // Clipboard API is not available, use document.execCommand
+            var textarea = document.createElement('textarea');
+            textarea.value = text;
+            document.body.appendChild(textarea);
+            textarea.select();
+            try {
+            document.execCommand('copy');
+            alert('Copied to clipboard!');
+            } catch (err) {
+            console.error('Could not copy text: ', err);
+            } finally {
+            document.body.removeChild(textarea);
+            }
+            }
+            }
+            </script>
+          </div>
+          <div class=
+          "bg-white rounded-xl border-2 border-black shadow-3xl p-8 m-8 text-center">
+            <h2 class="text-2xl font-bold py-2">Germany</h2>
+            <p><strong>Host: de-fless.pages.dev</strong><br>
+            <strong>Bandwidth: Unlimited</strong><br>
+            <strong>Transport: Websocket</strong><br>
+            <strong>TLS: 443, 8443, 2053, 2096, 2087,
+            2083</strong><br>
+            <strong>Valid: Lifetime</strong></p>
+            <p><button class=
+            "transform active:shadow hover:bg-slate-200 transition duration-150 ease-in rounded-lg border-2 border-black shadow-1xl py-1 px-4 my-4 bg-white text-black font-bold"
+            onclick=
+            "copyToClipboard('vless://6766d5e4-7f29-459b-9b5e-c9688b352366@de-fless.pages.dev:443?encryption=none&security=tls&sni=de-fless.pages.dev&fp=randomized&type=ws&host=de-fless.pages.dev&path=%2Ffless#de-fless.pages.dev')">
+            Copy</button></p>
+            <script>
+            function copyToClipboard(text) {
+            if (window.navigator.clipboard && window.navigator.clipboard.writeText) {
+            // Clipboard API is available
+            window.navigator.clipboard.writeText(text).then(function() {
+            alert('Copied to clipboard!');
+            }, function(err) {
+            console.error('Could not copy text: ', err);
+            });
+            } else {
+            // Clipboard API is not available, use document.execCommand
+            var textarea = document.createElement('textarea');
+            textarea.value = text;
+            document.body.appendChild(textarea);
+            textarea.select();
+            try {
+            document.execCommand('copy');
+            alert('Copied to clipboard!');
+            } catch (err) {
+            console.error('Could not copy text: ', err);
+            } finally {
+            document.body.removeChild(textarea);
+            }
+            }
+            }
+            </script>
+          </div>
+          <div class=
+          "bg-white rounded-xl border-2 border-black shadow-3xl p-8 m-8 text-center">
+            <h2 class="text-2xl font-bold py-2">Indonesia</h2>
+            <p><strong>Host: id-fless.pages.dev</strong><br>
+            <strong>Bandwidth: Unlimited</strong><br>
+            <strong>Transport: Websocket</strong><br>
+            <strong>TLS: 443, 8443, 2053, 2096, 2087,
+            2083</strong><br>
+            <strong>Valid: Lifetime</strong></p>
+            <p><button class=
+            "transform active:shadow hover:bg-slate-200 transition duration-150 ease-in rounded-lg border-2 border-black shadow-1xl py-1 px-4 my-4 bg-white text-black font-bold"
+            onclick=
+            "copyToClipboard('vless://6766d5e4-7f29-459b-9b5e-c9688b352366@id-fless.pages.dev:443?encryption=none&security=tls&sni=id-fless.pages.dev&fp=randomized&type=ws&host=id-fless.pages.dev&path=%2Ffless#id-fless.pages.dev')">
+            Copy</button></p>
+            <script>
+            function copyToClipboard(text) {
+            if (window.navigator.clipboard && window.navigator.clipboard.writeText) {
+            // Clipboard API is available
+            window.navigator.clipboard.writeText(text).then(function() {
+            alert('Copied to clipboard!');
+            }, function(err) {
+            console.error('Could not copy text: ', err);
+            });
+            } else {
+            // Clipboard API is not available, use document.execCommand
+            var textarea = document.createElement('textarea');
+            textarea.value = text;
+            document.body.appendChild(textarea);
+            textarea.select();
+            try {
+            document.execCommand('copy');
+            alert('Copied to clipboard!');
+            } catch (err) {
+            console.error('Could not copy text: ', err);
+            } finally {
+            document.body.removeChild(textarea);
+            }
+            }
+            }
+            </script>
+          </div>
+          <div class=
+          "bg-white rounded-xl border-2 border-black shadow-3xl p-8 m-8 text-center">
+            <h2 class="text-2xl font-bold py-2">India</h2>
+            <p><strong>Host: in-fless.pages.dev</strong><br>
+            <strong>Bandwidth: Unlimited</strong><br>
+            <strong>Transport: Websocket</strong><br>
+            <strong>TLS: 443, 8443, 2053, 2096, 2087,
+            2083</strong><br>
+            <strong>Valid: Lifetime</strong></p>
+            <p><button class=
+            "transform active:shadow hover:bg-slate-200 transition duration-150 ease-in rounded-lg border-2 border-black shadow-1xl py-1 px-4 my-4 bg-white text-black font-bold"
+            onclick=
+            "copyToClipboard('vless://6766d5e4-7f29-459b-9b5e-c9688b352366@in-fless.pages.dev:443?encryption=none&security=tls&sni=in-fless.pages.dev&fp=randomized&type=ws&host=in-fless.pages.dev&path=%2Ffless#in-fless.pages.dev')">
+            Copy</button></p>
+            <script>
+            function copyToClipboard(text) {
+            if (window.navigator.clipboard && window.navigator.clipboard.writeText) {
+            // Clipboard API is available
+            window.navigator.clipboard.writeText(text).then(function() {
+            alert('Copied to clipboard!');
+            }, function(err) {
+            console.error('Could not copy text: ', err);
+            });
+            } else {
+            // Clipboard API is not available, use document.execCommand
+            var textarea = document.createElement('textarea');
+            textarea.value = text;
+            document.body.appendChild(textarea);
+            textarea.select();
+            try {
+            document.execCommand('copy');
+            alert('Copied to clipboard!');
+            } catch (err) {
+            console.error('Could not copy text: ', err);
+            } finally {
+            document.body.removeChild(textarea);
+            }
+            }
+            }
+            </script>
+          </div>
+          <div class=
+          "bg-white rounded-xl border-2 border-black shadow-3xl p-8 m-8 text-center">
+            <h2 class="text-2xl font-bold py-2">Italy</h2>
+            <p><strong>Host: it-fless.pages.dev</strong><br>
+            <strong>Bandwidth: Unlimited</strong><br>
+            <strong>Transport: Websocket</strong><br>
+            <strong>TLS: 443, 8443, 2053, 2096, 2087,
+            2083</strong><br>
+            <strong>Valid: Lifetime</strong></p>
+            <p><button class=
+            "transform active:shadow hover:bg-slate-200 transition duration-150 ease-in rounded-lg border-2 border-black shadow-1xl py-1 px-4 my-4 bg-white text-black font-bold"
+            onclick=
+            "copyToClipboard('vless://6766d5e4-7f29-459b-9b5e-c9688b352366@it-fless.pages.dev:443?encryption=none&security=tls&sni=it-fless.pages.dev&fp=randomized&type=ws&host=it-fless.pages.dev&path=%2Ffless#it-fless.pages.dev')">
+            Copy</button></p>
+            <script>
+            function copyToClipboard(text) {
+            if (window.navigator.clipboard && window.navigator.clipboard.writeText) {
+            // Clipboard API is available
+            window.navigator.clipboard.writeText(text).then(function() {
+            alert('Copied to clipboard!');
+            }, function(err) {
+            console.error('Could not copy text: ', err);
+            });
+            } else {
+            // Clipboard API is not available, use document.execCommand
+            var textarea = document.createElement('textarea');
+            textarea.value = text;
+            document.body.appendChild(textarea);
+            textarea.select();
+            try {
+            document.execCommand('copy');
+            alert('Copied to clipboard!');
+            } catch (err) {
+            console.error('Could not copy text: ', err);
+            } finally {
+            document.body.removeChild(textarea);
+            }
+            }
+            }
+            </script>
+          </div>
+          <div class=
+          "bg-white rounded-xl border-2 border-black shadow-3xl p-8 m-8 text-center">
+            <h2 class="text-2xl font-bold py-2">Japan</h2>
+            <p><strong>Host: jp-fless.pages.dev</strong><br>
+            <strong>Bandwidth: Unlimited</strong><br>
+            <strong>Transport: Websocket</strong><br>
+            <strong>TLS: 443, 8443, 2053, 2096, 2087,
+            2083</strong><br>
+            <strong>Valid: Lifetime</strong></p>
+            <p><button class=
+            "transform active:shadow hover:bg-slate-200 transition duration-150 ease-in rounded-lg border-2 border-black shadow-1xl py-1 px-4 my-4 bg-white text-black font-bold"
+            onclick=
+            "copyToClipboard('vless://6766d5e4-7f29-459b-9b5e-c9688b352366@jp-fless.pages.dev:443?encryption=none&security=tls&sni=jp-fless.pages.dev&fp=randomized&type=ws&host=jp-fless.pages.dev&path=%2Ffless#jp-fless.pages.dev')">
+            Copy</button></p>
+            <script>
+            function copyToClipboard(text) {
+            if (window.navigator.clipboard && window.navigator.clipboard.writeText) {
+            // Clipboard API is available
+            window.navigator.clipboard.writeText(text).then(function() {
+            alert('Copied to clipboard!');
+            }, function(err) {
+            console.error('Could not copy text: ', err);
+            });
+            } else {
+            // Clipboard API is not available, use document.execCommand
+            var textarea = document.createElement('textarea');
+            textarea.value = text;
+            document.body.appendChild(textarea);
+            textarea.select();
+            try {
+            document.execCommand('copy');
+            alert('Copied to clipboard!');
+            } catch (err) {
+            console.error('Could not copy text: ', err);
+            } finally {
+            document.body.removeChild(textarea);
+            }
+            }
+            }
+            </script>
+          </div>
+          <div class=
+          "bg-white rounded-xl border-2 border-black shadow-3xl p-8 m-8 text-center">
+            <h2 class="text-2xl font-bold py-2">Korea</h2>
+            <p><strong>Host: kr-fless.pages.dev</strong><br>
+            <strong>Bandwidth: Unlimited</strong><br>
+            <strong>Transport: Websocket</strong><br>
+            <strong>TLS: 443, 8443, 2053, 2096, 2087,
+            2083</strong><br>
+            <strong>Valid: Lifetime</strong></p>
+            <p><button class=
+            "transform active:shadow hover:bg-slate-200 transition duration-150 ease-in rounded-lg border-2 border-black shadow-1xl py-1 px-4 my-4 bg-white text-black font-bold"
+            onclick=
+            "copyToClipboard('vless://6766d5e4-7f29-459b-9b5e-c9688b352366@kr-fless.pages.dev:443?encryption=none&security=tls&sni=kr-fless.pages.dev&fp=randomized&type=ws&host=kr-fless.pages.dev&path=%2Ffless#kr-fless.pages.dev')">
+            Copy</button></p>
+            <script>
+            function copyToClipboard(text) {
+            if (window.navigator.clipboard && window.navigator.clipboard.writeText) {
+            // Clipboard API is available
+            window.navigator.clipboard.writeText(text).then(function() {
+            alert('Copied to clipboard!');
+            }, function(err) {
+            console.error('Could not copy text: ', err);
+            });
+            } else {
+            // Clipboard API is not available, use document.execCommand
+            var textarea = document.createElement('textarea');
+            textarea.value = text;
+            document.body.appendChild(textarea);
+            textarea.select();
+            try {
+            document.execCommand('copy');
+            alert('Copied to clipboard!');
+            } catch (err) {
+            console.error('Could not copy text: ', err);
+            } finally {
+            document.body.removeChild(textarea);
+            }
+            }
+            }
+            </script>
+          </div>
+          <div class=
+          "bg-white rounded-xl border-2 border-black shadow-3xl p-8 m-8 text-center">
+            <h2 class="text-2xl font-bold py-2">Malaysia</h2>
+            <p><strong>Host: my-fless.pages.dev</strong><br>
+            <strong>Bandwidth: Unlimited</strong><br>
+            <strong>Transport: Websocket</strong><br>
+            <strong>TLS: 443, 8443, 2053, 2096, 2087,
+            2083</strong><br>
+            <strong>Valid: Lifetime</strong></p>
+            <p><button class=
+            "transform active:shadow hover:bg-slate-200 transition duration-150 ease-in rounded-lg border-2 border-black shadow-1xl py-1 px-4 my-4 bg-white text-black font-bold"
+            onclick=
+            "copyToClipboard('vless://6766d5e4-7f29-459b-9b5e-c9688b352366@my-fless.pages.dev:443?encryption=none&security=tls&sni=my-fless.pages.dev&fp=randomized&type=ws&host=my-fless.pages.dev&path=%2Ffless#my-fless.pages.dev')">
+            Copy</button></p>
+            <script>
+            function copyToClipboard(text) {
+            if (window.navigator.clipboard && window.navigator.clipboard.writeText) {
+            // Clipboard API is available
+            window.navigator.clipboard.writeText(text).then(function() {
+            alert('Copied to clipboard!');
+            }, function(err) {
+            console.error('Could not copy text: ', err);
+            });
+            } else {
+            // Clipboard API is not available, use document.execCommand
+            var textarea = document.createElement('textarea');
+            textarea.value = text;
+            document.body.appendChild(textarea);
+            textarea.select();
+            try {
+            document.execCommand('copy');
+            alert('Copied to clipboard!');
+            } catch (err) {
+            console.error('Could not copy text: ', err);
+            } finally {
+            document.body.removeChild(textarea);
+            }
+            }
+            }
+            </script>
+          </div>
+          <div class=
+          "bg-white rounded-xl border-2 border-black shadow-3xl p-8 m-8 text-center">
+            <h2 class="text-2xl font-bold py-2">Netherlands</h2>
+            <p><strong>Host: nl-fless.pages.dev</strong><br>
+            <strong>Bandwidth: Unlimited</strong><br>
+            <strong>Transport: Websocket</strong><br>
+            <strong>TLS: 443, 8443, 2053, 2096, 2087,
+            2083</strong><br>
+            <strong>Valid: Lifetime</strong></p>
+            <p><button class=
+            "transform active:shadow hover:bg-slate-200 transition duration-150 ease-in rounded-lg border-2 border-black shadow-1xl py-1 px-4 my-4 bg-white text-black font-bold"
+            onclick=
+            "copyToClipboard('vless://6766d5e4-7f29-459b-9b5e-c9688b352366@nl-fless.pages.dev:443?encryption=none&security=tls&sni=nl-fless.pages.dev&fp=randomized&type=ws&host=nl-fless.pages.dev&path=%2Ffless#nl-fless.pages.dev')">
+            Copy</button></p>
+            <script>
+            function copyToClipboard(text) {
+            if (window.navigator.clipboard && window.navigator.clipboard.writeText) {
+            // Clipboard API is available
+            window.navigator.clipboard.writeText(text).then(function() {
+            alert('Copied to clipboard!');
+            }, function(err) {
+            console.error('Could not copy text: ', err);
+            });
+            } else {
+            // Clipboard API is not available, use document.execCommand
+            var textarea = document.createElement('textarea');
+            textarea.value = text;
+            document.body.appendChild(textarea);
+            textarea.select();
+            try {
+            document.execCommand('copy');
+            alert('Copied to clipboard!');
+            } catch (err) {
+            console.error('Could not copy text: ', err);
+            } finally {
+            document.body.removeChild(textarea);
+            }
+            }
+            }
+            </script>
+          </div>
+          <div class=
+          "bg-white rounded-xl border-2 border-black shadow-3xl p-8 m-8 text-center">
+            <h2 class="text-2xl font-bold py-2">Russia</h2>
+            <p><strong>Host: ru-fless.pages.dev</strong><br>
+            <strong>Bandwidth: Unlimited</strong><br>
+            <strong>Transport: Websocket</strong><br>
+            <strong>TLS: 443, 8443, 2053, 2096, 2087,
+            2083</strong><br>
+            <strong>Valid: Lifetime</strong></p>
+            <p><button class=
+            "transform active:shadow hover:bg-slate-200 transition duration-150 ease-in rounded-lg border-2 border-black shadow-1xl py-1 px-4 my-4 bg-white text-black font-bold"
+            onclick=
+            "copyToClipboard('vless://6766d5e4-7f29-459b-9b5e-c9688b352366@ru-fless.pages.dev:443?encryption=none&security=tls&sni=ru-fless.pages.dev&fp=randomized&type=ws&host=ru-fless.pages.dev&path=%2Ffless#ru-fless.pages.dev')">
+            Copy</button></p>
+            <script>
+            function copyToClipboard(text) {
+            if (window.navigator.clipboard && window.navigator.clipboard.writeText) {
+            // Clipboard API is available
+            window.navigator.clipboard.writeText(text).then(function() {
+            alert('Copied to clipboard!');
+            }, function(err) {
+            console.error('Could not copy text: ', err);
+            });
+            } else {
+            // Clipboard API is not available, use document.execCommand
+            var textarea = document.createElement('textarea');
+            textarea.value = text;
+            document.body.appendChild(textarea);
+            textarea.select();
+            try {
+            document.execCommand('copy');
+            alert('Copied to clipboard!');
+            } catch (err) {
+            console.error('Could not copy text: ', err);
+            } finally {
+            document.body.removeChild(textarea);
+            }
+            }
+            }
+            </script>
+          </div>
+          <div class=
+          "bg-white rounded-xl border-2 border-black shadow-3xl p-8 m-8 text-center">
+            <h2 class="text-2xl font-bold py-2">Singapore</h2>
+            <p><strong>Host: sg-fless.pages.dev</strong><br>
+            <strong>Bandwidth: Unlimited</strong><br>
+            <strong>Transport: Websocket</strong><br>
+            <strong>TLS: 443, 8443, 2053, 2096, 2087,
+            2083</strong><br>
+            <strong>Valid: Lifetime</strong></p>
+            <p><button class=
+            "transform active:shadow hover:bg-slate-200 transition duration-150 ease-in rounded-lg border-2 border-black shadow-1xl py-1 px-4 my-4 bg-white text-black font-bold"
+            onclick=
+            "copyToClipboard('vless://6766d5e4-7f29-459b-9b5e-c9688b352366@sg-fless.pages.dev:443?encryption=none&security=tls&sni=sg-fless.pages.dev&fp=randomized&type=ws&host=sg-fless.pages.dev&path=%2Ffless#sg-fless.pages.dev')">
+            Copy</button></p>
+            <script>
+            function copyToClipboard(text) {
+            if (window.navigator.clipboard && window.navigator.clipboard.writeText) {
+            // Clipboard API is available
+            window.navigator.clipboard.writeText(text).then(function() {
+            alert('Copied to clipboard!');
+            }, function(err) {
+            console.error('Could not copy text: ', err);
+            });
+            } else {
+            // Clipboard API is not available, use document.execCommand
+            var textarea = document.createElement('textarea');
+            textarea.value = text;
+            document.body.appendChild(textarea);
+            textarea.select();
+            try {
+            document.execCommand('copy');
+            alert('Copied to clipboard!');
+            } catch (err) {
+            console.error('Could not copy text: ', err);
+            } finally {
+            document.body.removeChild(textarea);
+            }
+            }
+            }
+            </script>
+          </div>
+          <div class=
+          "bg-white rounded-xl border-2 border-black shadow-3xl p-8 m-8 text-center">
+            <h2 class="text-2xl font-bold py-2">Spain</h2>
+            <p><strong>Host: es-fless.pages.dev</strong><br>
+            <strong>Bandwidth: Unlimited</strong><br>
+            <strong>Transport: Websocket</strong><br>
+            <strong>TLS: 443, 8443, 2053, 2096, 2087,
+            2083</strong><br>
+            <strong>Valid: Lifetime</strong></p>
+            <p><button class=
+            "transform active:shadow hover:bg-slate-200 transition duration-150 ease-in rounded-lg border-2 border-black shadow-1xl py-1 px-4 my-4 bg-white text-black font-bold"
+            onclick=
+            "copyToClipboard('vless://6766d5e4-7f29-459b-9b5e-c9688b352366@es-fless.pages.dev:443?encryption=none&security=tls&sni=es-fless.pages.dev&fp=randomized&type=ws&host=es-fless.pages.dev&path=%2Ffless#es-fless.pages.dev')">
+            Copy</button></p>
+            <script>
+            function copyToClipboard(text) {
+            if (window.navigator.clipboard && window.navigator.clipboard.writeText) {
+            // Clipboard API is available
+            window.navigator.clipboard.writeText(text).then(function() {
+            alert('Copied to clipboard!');
+            }, function(err) {
+            console.error('Could not copy text: ', err);
+            });
+            } else {
+            // Clipboard API is not available, use document.execCommand
+            var textarea = document.createElement('textarea');
+            textarea.value = text;
+            document.body.appendChild(textarea);
+            textarea.select();
+            try {
+            document.execCommand('copy');
+            alert('Copied to clipboard!');
+            } catch (err) {
+            console.error('Could not copy text: ', err);
+            } finally {
+            document.body.removeChild(textarea);
+            }
+            }
+            }
+            </script>
+          </div>
+          <div class=
+          "bg-white rounded-xl border-2 border-black shadow-3xl p-8 m-8 text-center">
+            <h2 class="text-2xl font-bold py-2">Switzerland</h2>
+            <p><strong>Host: ch-fless.pages.dev</strong><br>
+            <strong>Bandwidth: Unlimited</strong><br>
+            <strong>Transport: Websocket</strong><br>
+            <strong>TLS: 443, 8443, 2053, 2096, 2087,
+            2083</strong><br>
+            <strong>Valid: Lifetime</strong></p>
+            <p><button class=
+            "transform active:shadow hover:bg-slate-200 transition duration-150 ease-in rounded-lg border-2 border-black shadow-1xl py-1 px-4 my-4 bg-white text-black font-bold"
+            onclick=
+            "copyToClipboard('vless://6766d5e4-7f29-459b-9b5e-c9688b352366@ch-fless.pages.dev:443?encryption=none&security=tls&sni=ch-fless.pages.dev&fp=randomized&type=ws&host=ch-fless.pages.dev&path=%2Ffless#ch-fless.pages.dev')">
+            Copy</button></p>
+            <script>
+            function copyToClipboard(text) {
+            if (window.navigator.clipboard && window.navigator.clipboard.writeText) {
+            // Clipboard API is available
+            window.navigator.clipboard.writeText(text).then(function() {
+            alert('Copied to clipboard!');
+            }, function(err) {
+            console.error('Could not copy text: ', err);
+            });
+            } else {
+            // Clipboard API is not available, use document.execCommand
+            var textarea = document.createElement('textarea');
+            textarea.value = text;
+            document.body.appendChild(textarea);
+            textarea.select();
+            try {
+            document.execCommand('copy');
+            alert('Copied to clipboard!');
+            } catch (err) {
+            console.error('Could not copy text: ', err);
+            } finally {
+            document.body.removeChild(textarea);
+            }
+            }
+            }
+            </script>
+          </div>
+          <div class=
+          "bg-white rounded-xl border-2 border-black shadow-3xl p-8 m-8 text-center">
+            <h2 class="text-2xl font-bold py-2">Ukraine</h2>
+            <p><strong>Host: ua-fless.pages.dev</strong><br>
+            <strong>Bandwidth: Unlimited</strong><br>
+            <strong>Transport: Websocket</strong><br>
+            <strong>TLS: 443, 8443, 2053, 2096, 2087,
+            2083</strong><br>
+            <strong>Valid: Lifetime</strong></p>
+            <p><button class=
+            "transform active:shadow hover:bg-slate-200 transition duration-150 ease-in rounded-lg border-2 border-black shadow-1xl py-1 px-4 my-4 bg-white text-black font-bold"
+            onclick=
+            "copyToClipboard('vless://6766d5e4-7f29-459b-9b5e-c9688b352366@ua-fless.pages.dev:443?encryption=none&security=tls&sni=ua-fless.pages.dev&fp=randomized&type=ws&host=ua-fless.pages.dev&path=%2Ffless#ua-fless.pages.dev')">
+            Copy</button></p>
+            <script>
+            function copyToClipboard(text) {
+            if (window.navigator.clipboard && window.navigator.clipboard.writeText) {
+            // Clipboard API is available
+            window.navigator.clipboard.writeText(text).then(function() {
+            alert('Copied to clipboard!');
+            }, function(err) {
+            console.error('Could not copy text: ', err);
+            });
+            } else {
+            // Clipboard API is not available, use document.execCommand
+            var textarea = document.createElement('textarea');
+            textarea.value = text;
+            document.body.appendChild(textarea);
+            textarea.select();
+            try {
+            document.execCommand('copy');
+            alert('Copied to clipboard!');
+            } catch (err) {
+            console.error('Could not copy text: ', err);
+            } finally {
+            document.body.removeChild(textarea);
+            }
+            }
+            }
+            </script>
+          </div>
+          <div class=
+          "bg-white rounded-xl border-2 border-black shadow-3xl p-8 m-8 text-center">
+            <h2 class="text-2xl font-bold py-2">United Kingdom</h2>
+            <p><strong>Host: uk-fless.pages.dev</strong><br>
+            <strong>Bandwidth: Unlimited</strong><br>
+            <strong>Transport: Websocket</strong><br>
+            <strong>TLS: 443, 8443, 2053, 2096, 2087,
+            2083</strong><br>
+            <strong>Valid: Lifetime</strong></p>
+            <p><button class=
+            "transform active:shadow hover:bg-slate-200 transition duration-150 ease-in rounded-lg border-2 border-black shadow-1xl py-1 px-4 my-4 bg-white text-black font-bold"
+            onclick=
+            "copyToClipboard('vless://6766d5e4-7f29-459b-9b5e-c9688b352366@uk-fless.pages.dev:443?encryption=none&security=tls&sni=uk-fless.pages.dev&fp=randomized&type=ws&host=uk-fless.pages.dev&path=%2Ffless#uk-fless.pages.dev')">
+            Copy</button></p>
+            <script>
+            function copyToClipboard(text) {
+            if (window.navigator.clipboard && window.navigator.clipboard.writeText) {
+            // Clipboard API is available
+            window.navigator.clipboard.writeText(text).then(function() {
+            alert('Copied to clipboard!');
+            }, function(err) {
+            console.error('Could not copy text: ', err);
+            });
+            } else {
+            // Clipboard API is not available, use document.execCommand
+            var textarea = document.createElement('textarea');
+            textarea.value = text;
+            document.body.appendChild(textarea);
+            textarea.select();
+            try {
+            document.execCommand('copy');
+            alert('Copied to clipboard!');
+            } catch (err) {
+            console.error('Could not copy text: ', err);
+            } finally {
+            document.body.removeChild(textarea);
+            }
+            }
+            }
+            </script>
+          </div>
+          <div class=
+          "bg-white rounded-xl border-2 border-black shadow-3xl p-8 m-8 text-center">
+            <h2 class="text-2xl font-bold py-2">United States</h2>
+            <p><strong>Host: us-fless.pages.dev</strong><br>
+            <strong>Bandwidth: Unlimited</strong><br>
+            <strong>Transport: Websocket</strong><br>
+            <strong>TLS: 443, 8443, 2053, 2096, 2087,
+            2083</strong><br>
+            <strong>Valid: Lifetime</strong></p>
+            <p><button class=
+            "transform active:shadow hover:bg-slate-200 transition duration-150 ease-in rounded-lg border-2 border-black shadow-1xl py-1 px-4 my-4 bg-white text-black font-bold"
+            onclick=
+            "copyToClipboard('vless://6766d5e4-7f29-459b-9b5e-c9688b352366@us-fless.pages.dev:443?encryption=none&security=tls&sni=us-fless.pages.dev&fp=randomized&type=ws&host=us-fless.pages.dev&path=%2Ffless#us-fless.pages.dev')">
+            Copy</button></p>
+            <script>
+            function copyToClipboard(text) {
+            if (window.navigator.clipboard && window.navigator.clipboard.writeText) {
+            // Clipboard API is available
+            window.navigator.clipboard.writeText(text).then(function() {
+            alert('Copied to clipboard!');
+            }, function(err) {
+            console.error('Could not copy text: ', err);
+            });
+            } else {
+            // Clipboard API is not available, use document.execCommand
+            var textarea = document.createElement('textarea');
+            textarea.value = text;
+            document.body.appendChild(textarea);
+            textarea.select();
+            try {
+            document.execCommand('copy');
+            alert('Copied to clipboard!');
+            } catch (err) {
+            console.error('Could not copy text: ', err);
+            } finally {
+            document.body.removeChild(textarea);
+            }
+            }
+            }
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
